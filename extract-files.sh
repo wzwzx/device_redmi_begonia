@@ -94,6 +94,9 @@ function blob_fixup {
         vendor/lib64/libudf.so)
             "${PATCHELF}" --replace-needed "libunwindstack.so" "libunwindstack-v30.so" "${2}"
             ;;
+        vendor/bin/hw/android.hardware.vibrator-service.mediatek)
+            "${PATCHELF}" --replace-needed "android.hardware.vibrator-V1-ndk_platform.so" "android.hardware.vibrator-V1-ndk.so" "${2}"
+            ;;
     esac
 }
 
