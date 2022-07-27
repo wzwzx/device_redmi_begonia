@@ -30,6 +30,9 @@ $(call inherit-product, device/redmi/begonia/device.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/kscope/target/product/mobile.mk)
 
+# Kscope
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
 PRODUCT_NAME := kscope_begonia
