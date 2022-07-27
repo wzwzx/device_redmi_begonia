@@ -419,13 +419,14 @@
     </string-array>
 
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height_default">78.0px</dimen>
-    <dimen name="status_bar_height_portrait">78.0px</dimen>
-    <dimen name="status_bar_height_landscape">24.0dp</dimen>
+    <dimen name="status_bar_height">100px</dimen>
 
     <!-- Rounded corner padding and radius -->
-    <dimen name="rounded_corner_radius_top">95.0px</dimen>
-    <dimen name="rounded_corner_radius_bottom">90.0px</dimen>
+    <dimen name="rounded_corner_radius">110px</dimen>
+    <dimen name="rounded_corner_radius_adjustment">25px</dimen>
+
+    <!-- Height of the status bar header bar when on Keyguard (match status_bar_portrait) -->
+    <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height</dimen>
 
     <!-- True if the firmware supports connected MAC randomization -->
     <bool name="config_wifi_connected_mac_randomization_supported">true</bool>
