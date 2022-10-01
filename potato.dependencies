@@ -1,11 +1,19 @@
 [
   {
-    "repository" : "AgentFabulous/begonia",
+    "repository" : "kernel_xiaomi_mt6785",
     "target_path": "kernel/xiaomi/mt6785",
-    "branch" : "android-12.0"
+    "branch" : "12"
   },
   {
     "repository" : "vendor_redmi_begonia",
-    "target_path": "vendor/redmi/begonia"
-  }
+    "target_path": "vendor/redmi/begonia",
+    "branch" : "Tatara"
+  },
+    "repository" : "android_device_mediatek_sepolicy",
+    "target_path": "device/mediatek/sepolicy",
+    "branch" : "13.0"
+  },
+    "repository" : "vendor_redmi_begonia-ims",
+    "target_path": "vendor/redmi/begonia-ims",
+    "branch" : "13.0"
 ]
