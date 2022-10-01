@@ -127,9 +127,6 @@ persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera
 vendor.camera.aux.packageexcludelist=org.telegram.messenger,com.microsoft.teams,com.discord
 
-# Cutout (POSP)
-ro.potato.has_cutout=true
-
 # Dex
 persist.bg.dexopt.enable=true
 dalvik.vm.dexopt.secondary=true
